@@ -3,7 +3,7 @@
 include('traiters.php');
 
 	class dbQuery
-	{ 
+	{
 		//use helperDB; //{helperDB::_GetHTMLTable2 as GHT;}
 
 		public  $resultQuery;
