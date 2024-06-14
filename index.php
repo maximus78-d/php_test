@@ -4,24 +4,15 @@
 	<meta charset="utf-8">
 	<meta name="google" content="notranslate">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Maximus</title>
-	<script src="http://localhost/maximus/js/jquery.js"></script>
-	<script src="http://localhost/maximus/js/main.js?<?php echo filemtime('./js/main.js');?>"></script>
+	<title>php_test</title>
 </head>
 <body>
-	<div style="width:100%; margin-top: 10px; margin-bottom: 10px;" align="center">
-		<button onclick="test1()">Test1</button>
-	</div>
-	<div style="width:100%; margin-top: 10px; margin-bottom: 10px;" align="center">
-		<button onclick="test2()">Test2</button>
-	</div>
-
 	<?php
 
 
-		$token = $_POST['token'];
-		echo $token;
-		echo '<br>';
+		// $token = $_POST['token'];
+		// echo $token;
+		// echo '<br>';
 		$ccc = getallheaders();
 		echo '<br>';
 
@@ -33,7 +24,7 @@
 
 		// Мой класс для работы с запросами
 		// Подключение файла для использования класса/ов
-		require_once './MyClass/classDB.php';
+		require_once './library/classDB.php';
 
 
 		//$sqlText = 'select * from jrn_alldoc';
