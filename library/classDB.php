@@ -4,6 +4,7 @@ include('traiters.php');
 
 	class dbQuery
 	{
+        //Подключение Бранча
 		//use helperDB; //{helperDB::_GetHTMLTable2 as GHT;}
 
 		public  $resultQuery;
