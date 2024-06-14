@@ -31,12 +31,6 @@
 		echo md5(json_encode($ccc));
 
 
-		//include('./include/test2.php');
-
-		//$f = $a;
-		//echo $f;
-
-
 		// Мой класс для работы с запросами
 		// Подключение файла для использования класса/ов
 		require_once './MyClass/classDB.php';
@@ -44,6 +38,7 @@
 
 		//$sqlText = 'select * from jrn_alldoc';
 		//$cl = new dbQuery($sqlText);
+        
 
 		
 		
