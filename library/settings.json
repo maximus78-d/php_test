@@ -1,0 +1,14 @@
+{
+    "name": "Aleix Melon",
+    "id": "E00245",
+    "role": ["Dev", "DBA"],
+    "age": 23,
+    "doj": "11-12-2019",
+    "married": false,
+    "DBConnect": {
+        "server": "127.0.0.1:3306",
+        "name": "maximus_db",
+        "login": "root",
+        "pass" : "root"
+        }
+    }

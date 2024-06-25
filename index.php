@@ -9,6 +9,9 @@
 <body>
 	<?php
 
+		$file = 'C:\OpenServer\domains\localhost\php_test\library\settings.json';
+		$json = json_decode(file_get_contents($file),TRUE);
+		$a = $json['DBConnect'];
 
 		// $token = $_POST['token'];
 		// echo $token;
